@@ -11,3 +11,10 @@ subscribe.addEventListener("click", function(){
 close.addEventListener("click", function(){
 	popup.style.display="none";
 });
+
+window.addEventListener("click", function(e){
+	if(e.target==popup){
+		popup.style.display="none";
+
+	}
+})
